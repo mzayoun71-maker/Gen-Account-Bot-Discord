@@ -147,5 +147,5 @@ async def generar(interaction: discord.Interaction):
     )
     embed_response.set_thumbnail(url=member.display_avatar.url)
     await interaction.response.send_message(embed=embed_response, ephemeral=True)
-BOT_TOKEN = 'EL TOKEN DE TU BOT DE DISCORD'
+BOT_TOKEN = 'MTU2NTQyMTA2ODMzOTExODE5MA.GRtbnK.iIO7PNWzhGZGhg3Ne5S91oRMJjNOR6yxYR00kw'
 bot.run(BOT_TOKEN)
